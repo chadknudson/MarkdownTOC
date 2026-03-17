@@ -86,12 +86,5 @@ namespace NorseTechnologies.MarkdownTOC
 
 			return link;
 		}
-
-		public static void Main(string[] args)
-		{
-			// Example usage
-			string filePath = "README.md";
-			GenerateOrReplaceTableOfContents(filePath);
-		}
 	}
 }

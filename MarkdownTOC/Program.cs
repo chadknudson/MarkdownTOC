@@ -20,6 +20,7 @@ namespace NorseTechnologies.MarkdownTOC
 					MarkdownTableOfContentsGenerator.GenerateOrReplaceTableOfContents(o.Filename);
 				});
 		}
+
 		private static Type[] LoadVerbs()
 		{
 			return Assembly.GetExecutingAssembly().GetTypes()
